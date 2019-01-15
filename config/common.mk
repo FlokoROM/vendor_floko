@@ -115,9 +115,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    libjamesdsp
 
-# AudioFX
+# DSPManager
 PRODUCT_PACKAGES += \
-    AudioFX
+    DSPManager
 
 # Phonograph
 #PRODUCT_PACKAGES += \
