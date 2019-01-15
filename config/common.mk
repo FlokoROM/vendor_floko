@@ -127,9 +127,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Jelly
 
-# OmniJaws
+# Omni Packages
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    OmniSwitch
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
