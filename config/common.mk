@@ -141,8 +141,7 @@ PRODUCT_PACKAGES += \
 
 # AICP packages
 PRODUCT_PACKAGES += \
-    AicpExtras \
-    TilesWallpaper
+    AicpExtras
 
 include packages/overlays/AICP/product_packages.mk
 
