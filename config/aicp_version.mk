@@ -24,11 +24,8 @@ ifndef AICP_BUILDTYPE
 endif
 
 ifdef AICP_BUILDTYPE
-    ifeq ($(AICP_BUILDTYPE), NIGHTLY)
-        AICP_VERSION := floko_$(AICP_BUILD)_$(AICP_BRANCH)-$(VERSION)-NIGHTLY-$(shell date -u +%Y%m%d)
-    endif
-    ifeq ($(AICP_BUILDTYPE), WEEKLY)
-       AICP_VERSION := floko_$(AICP_BUILD)_$(AICP_BRANCH)-$(VERSION)-WEEKLY-$(shell date -u +%Y%m%d)
+    ifeq ($(AICP_BUILDTYPE), OFFICIAL)
+        AICP_VERSION := floko_$(AICP_BUILD)_$(AICP_BRANCH)-$(VERSION)-OFFICIAL-$(shell date -u +%Y%m%d)
     endif
     ifeq ($(AICP_BUILDTYPE), EXPERIMENTAL)
         AICP_VERSION := floko_$(AICP_BUILD)_$(AICP_BRANCH)-$(VERSION)-EXPERIMENTAL-$(shell date -u +%Y%m%d)
