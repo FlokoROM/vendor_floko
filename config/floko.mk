@@ -1,3 +1,15 @@
+# Our versioning system
+
+ifndef FLOKO_BUILD_TYPE
+    FLOKO_BUILD_TYPE := UNOFFICIAL
+endif
+
+FLOKO_VERSION := 2.0
+CR_VERSION := $(FLOKO_VERSION)
+
+LINEAGE_VERSION := floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)-$(shell date +%Y%m%d)-$(FLOKO_BUILD_TYPE)
+LINEAGE_DISPLAY_VERSION := floko-v$(FLOKO_VERSION)
+
 # Additional props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \

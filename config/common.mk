@@ -236,12 +236,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 0
 
-# Increase CR Version with each major release.
-CR_VERSION := 5.2
-
-LINEAGE_VERSION := Floko-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)
-LINEAGE_DISPLAY_VERSION := Floko-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_BUILD)
-
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
