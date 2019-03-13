@@ -43,7 +43,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     crDroidThemesStub \
     ThemePicker \
-    OmniStyle
+    OmniStyle \
+    OmniSwitch
 
 # Accents
 PRODUCT_PACKAGES += \
