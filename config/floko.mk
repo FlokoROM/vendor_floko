@@ -24,4 +24,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Custom packages
 PRODUCT_PACKAGES += \
-    WeatherClient
+    WeatherClient \
+    OmniSwitch
