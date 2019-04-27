@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= floko
+PRODUCT_BRAND ?= Floko
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -86,6 +86,9 @@ PRODUCT_COPY_FILES += \
 # Power whitelist
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/crdroid-power-whitelist.xml:system/etc/sysconfig/crdroid-power-whitelist.xml
+
+# Include AOSP audio files
+include vendor/lineage/config/aosp_audio.mk
 
 # Include Lineage audio files
 include vendor/lineage/config/lineage_audio.mk
