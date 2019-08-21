@@ -74,12 +74,6 @@
          non-interactive state. -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
 
-    <!-- Controls the WiFi wakeup feature.
-          0 = Not available.
-          1 = Available.
-     -->
-     <integer name="config_wifi_wakeup_available">1</integer>
-
     <!-- Control whether Night display is available. This should only be enabled on devices
          that have a HWC implementation that can apply the matrix passed to setColorTransform
          without impacting power, performance, and app compatibility (e.g. protected content). -->
@@ -169,4 +163,12 @@
 
     <!-- Enable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
+
+    <!-- Whether or not we should show the option to show battery percentage -->
+    <bool name="config_battery_percentage_setting_available">false</bool>
+
+    <!-- When true, the tethering upstream network follows the current default
+         Internet network (except when the current default network is mobile,
+         in which case a DUN network will be used if required). -->
+    <bool name="config_tether_upstream_automatic">true</bool>
 </resources>
