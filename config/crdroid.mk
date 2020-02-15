@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
     crDroidMusic \
     crDroidThemesStub \
     ThemePicker \
-    OmniStyle \
-    Longshot
+    OmniStyle
 
 # Accents
 PRODUCT_PACKAGES += \
