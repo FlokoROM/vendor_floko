@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     Jelly \
     LockClock \
     Profiles \
+    TrebuchetQuickStep \
     Updater \
     WeatherProvider
 
@@ -230,7 +231,7 @@ endif
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    Launcher3QuickStep
+    TrebuchetQuickStep
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
