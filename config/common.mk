@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     LockClock \
     Profiles \
     TrebuchetQuickStep \
-    Updater \
     WeatherProvider
 
 # Extra tools in Lineage
