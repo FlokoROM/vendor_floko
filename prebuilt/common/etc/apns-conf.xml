@@ -2871,6 +2871,7 @@
   <apn carrier="OCN LTE" mcc="440" mnc="10" apn="lte-d.ocn.ne.jp" user="mobileid@ocn" password="mobile" authtype="2" type="default,supl" />
   <apn carrier="OCN LTE (新プラン)" mcc="440" mnc="10" apn="lte.ocn.ne.jp" user="mobileid@ocn" password="mobile" authtype="2" type="default,supl" />
   <apn carrier="LINE MOBILE" mcc="440" mnc="10" apn="line.me" user="line@line" password="line" authtype="3" type="default,supl" protocol="IPV4" />
+  <apn carrier="LINE MOBILE (basic)" mcc="440" mnc="10" apn="linemobile.jp" user="line@line" password="line" authtype="3" type="default,supl" />
   <apn carrier="So-net" mcc="440" mnc="10" apn="so-net.jp" user="nuro" password="nuro" authtype="2" type="default,supl" />
   <apn carrier="U-mobile" mcc="440" mnc="10" apn="umobile.jp" user="umobile@umobile.jp" password="umobile" authtype="3" type="default,supl" />
   <apn carrier="U-mobile Max" mcc="440" mnc="10" apn="dm.jplat.net" user="umobile@umobile.jp" password="umobile" authtype="3" type="default,supl" />
