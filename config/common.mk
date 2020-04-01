@@ -45,10 +45,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 endif
 
-# system mount
-PRODUCT_COPY_FILES += \
-    vendor/lineage/prebuilt/common/bin/system-mount.sh:install/bin/system-mount.sh
-
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/backup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/backup.xml
