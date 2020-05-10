@@ -43,6 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     crDroidThemesStub \
     ThemePicker \
+    OmniJaws \
     OmniStyle \
     OmniSwitch
 
