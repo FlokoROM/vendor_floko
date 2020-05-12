@@ -47,6 +47,12 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch
 
+# Fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
+    LatoFont \
+    RubikFont
+
 # Accents
 PRODUCT_PACKAGES += \
     Amber \
