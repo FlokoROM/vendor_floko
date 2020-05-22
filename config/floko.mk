@@ -50,8 +50,23 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    AclonicaFont \
+    Amarante \
+    BariolFont \
+    CagliostroFont \
+    ComfortaaFont \
+    CoolstoryFont \
+    ExotwoFont \
+    GrandHotelFont \
     LatoFont \
-    RubikFont
+    NunitoFont \
+    QuandoFont \
+    RedressedFont \
+    ReemKufiFont \
+    RubikFont \
+    StoropiaFont \
+    SurferFont \
+    UbuntuFont
 
 # Accents
 PRODUCT_PACKAGES += \
