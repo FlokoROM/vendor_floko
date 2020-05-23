@@ -58,6 +58,8 @@ PRODUCT_PACKAGES += \
     CoolstoryFont \
     ExotwoFont \
     GrandHotelFont \
+    HackGenFont \
+    KoruriFont \
     LatoFont \
     NunitoFont \
     QuandoFont \
