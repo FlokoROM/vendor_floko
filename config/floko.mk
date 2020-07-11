@@ -64,9 +64,9 @@ PRODUCT_PACKAGES += \
     KoruriFont \
     LatoFont \
     NunitoFont \
-    QuandoFont \
     RedressedFont \
     ReemKufiFont \
+    RobotoCondensedFont \
     RubikFont \
     StoropiaFont \
     SurferFont \
