@@ -48,6 +48,12 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch
 
+# If Official, build Updater
+ifeq ($(FLOKO_BUILD_TYPE), OFFICIAL)
+PRODUCT_PACKAGES += \
+    Updater
+endif
+
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
