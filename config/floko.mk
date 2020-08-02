@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     KoruriFont \
     LatoFont \
     NunitoFont \
+    OswaldFont \
     RedressedFont \
     ReemKufiFont \
     RobotoCondensedFont \
