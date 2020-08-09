@@ -46,13 +46,8 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     OmniJaws \
     OmniStyle \
-    OmniSwitch
-
-# If Official, build Updater
-ifeq ($(FLOKO_BUILD_TYPE), OFFICIAL)
-PRODUCT_PACKAGES += \
+    OmniSwitch \
     Updater
-endif
 
 # Fonts
 PRODUCT_PACKAGES += \
