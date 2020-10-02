@@ -140,3 +140,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SystemAmoledBlack \
     SystemCharcoalBlack
+
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
