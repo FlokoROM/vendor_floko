@@ -183,7 +183,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
 ifeq ($(TARGET_HAS_FOD),true)
+ifneq ($(TARGET_HAS_FOD_OVERLAY),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/fod
+endif
 endif
 
 # Product version should match Android version
