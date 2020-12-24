@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     OmniJaws \
     OmniStyle \
+    OmniSwitch \
     MatLog \
     QuickAccessWallet
 
