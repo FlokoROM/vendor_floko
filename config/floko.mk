@@ -70,30 +70,19 @@ PRODUCT_PACKAGES += \
     Amarante \
     BariolFont \
     CagliostroFont \
-    CoconFont \
     ComfortaaFont \
-    ComicSansFont \
     CoolstoryFont \
     ExotwoFont \
-    Fifa2018Font \
-    GoogleSansFont \
     GrandHotelFont \
     LatoFont \
-    LGSmartGothicFont \
     LinotteFont \
-    NokiaPureFont \
     NunitoFont \
-    OneplusSansFont \
-    OneplusSlateFont \
     OswaldFont \
     QuandoFont \
     RedressedFont \
     ReemKufiFont \
     RobotoCondensedFont \
-    RosemaryFont \
     RubikFont \
-    SamsungOneFont \
-    SonySketchFont \
     StoropiaFont \
     SurferFont \
     UbuntuFont
