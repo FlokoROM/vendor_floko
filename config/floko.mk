@@ -1,3 +1,17 @@
+# Our versioning system
+
+ifndef FLOKO_BUILD_TYPE
+    FLOKO_BUILD_TYPE := UNOFFICIAL
+endif
+
+FLOKO_VERSION := 4.0
+CR_VERSION := $(FLOKO_VERSION)
+
+
+LINEAGE_VERSION := Floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)-$(shell date -u +%Y%m%d)-$(FLOKO_BUILD_TYPE)
+LINEAGE_DISPLAY_VERSION := Floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)
+
+
 # Additional props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.debug.alloc=0 \
@@ -34,7 +48,6 @@ endif
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    crDroidMusic \
     crDroidThemesStub \
     ThemePicker \
     OmniJaws \
