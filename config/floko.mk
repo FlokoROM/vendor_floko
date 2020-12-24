@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
     CoolstoryFont \
     ExotwoFont \
     GrandHotelFont \
+    KoruriFont \
     LatoFont \
     LinotteFont \
     NunitoFont \
