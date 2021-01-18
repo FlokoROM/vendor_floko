@@ -48,6 +48,7 @@ endif
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    Bromite \
     crDroidThemesStub \
     ThemePicker \
     OmniJaws \
