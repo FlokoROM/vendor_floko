@@ -39,6 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Custom packages
 PRODUCT_PACKAGES += \
+    Bromite \
     OmniStyle \
     OmniSwitch \
     WeatherClient

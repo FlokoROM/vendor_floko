@@ -128,7 +128,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     ExactCalculator \
-    Jelly \
     LockClock \
     WallpaperPicker \
     WeatherProvider
