@@ -176,3 +176,13 @@ PRODUCT_PACKAGES += \
     QStileTeardrop \
     QStileTriangle \
     QStileWavey
+
+# Switch Themes
+PRODUCT_PACKAGES += \
+    ContainedSwitch \
+    MD2Switch \
+    NarrowSwitch \
+    OnePlusSwitch \
+    RetroSwitch \
+    StockSwitch \
+    TelegramSwitch
