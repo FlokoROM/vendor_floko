@@ -203,3 +203,10 @@ PRODUCT_PACKAGES += \
     RetroSwitch \
     StockSwitch \
     TelegramSwitch
+
+# Volume Panel styles
+PRODUCT_PACKAGES += \
+	AospPanel \
+	CompactPanel \
+	OreoPanel \
+	TiledPanel
