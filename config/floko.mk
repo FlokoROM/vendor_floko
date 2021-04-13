@@ -153,6 +153,13 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden
 
+# Notch city
+PRODUCT_PACKAGES += \
+    HideCutout \
+    ImmersiveMode \
+    StatusBarStock \
+    StatusBarStockSysUI
+
 # QS tile styles
 PRODUCT_PACKAGES += \
     QStileDefault \
