@@ -128,9 +128,7 @@ PRODUCT_PACKAGES += \
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     7z \
-    awk \
     bash \
-    bzip2 \
     curl \
     getcap \
     htop \
