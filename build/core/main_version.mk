@@ -9,7 +9,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.floko.build.version=$(LINEAGE_VERSION) \
     ro.floko.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.floko.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(CR_VERSION) \
+    ro.modversion=$(FLOKO_VERSION) \
     ro.flokolegal.url=https://wiki.maud.io/floko/legal
 
 # LineageOS Platform SDK Version
