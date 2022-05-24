@@ -45,6 +45,8 @@
     <string-array name="config_locationExtraPackageNames" translatable="false">
         <!-- TeleService -->
         <item>com.android.phone</item>
+        <!-- Google Play Services location history module -->
+        <item>com.google.android.gms.location.history</item>
     </string-array>
 
     <bool name="config_cellBroadcastAppLinks">true</bool>
@@ -159,12 +161,6 @@
 
     <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
     <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.8</item>
-
-    <!-- Extra location package names -->
-    <string-array name="config_locationExtraPackageNames" translatable="false">
-        <!-- Google Play Services location history module -->
-        <item>com.google.android.gms.location.history</item>
-    </string-array>
 
     <!-- The package name of the default network recommendation app.
          A network recommendation provider must:
