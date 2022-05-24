@@ -5,7 +5,7 @@ FLOKO_VERSION := 6.0
 CR_VERSION := $(FLOKO_VERSION)
 
 # Internal version
-LINEAGE_VERSION := Floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)-$(shell date -u +%Y%m%d)-$(FLOKO_BUILD_TYPE)
+LINEAGE_VERSION := Floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)-$(shell date -u +%Y%m%d)
 
 # Display version
 LINEAGE_DISPLAY_VERSION := Floko-v$(FLOKO_VERSION)-$(LINEAGE_BUILD)
